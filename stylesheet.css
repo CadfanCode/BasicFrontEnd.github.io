@@ -1,0 +1,7 @@
+.main-container{
+    display:flexbox;
+    flex-direction: column;
+    color: #97351C;
+    border-style: solid;
+    border-color: #C55637;
+}
