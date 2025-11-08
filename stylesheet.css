@@ -17,7 +17,7 @@ body {
 header {
   display: flex;
   align-items: left;
-  justify-content: center;
+  justify-content: left;
   gap: 10px;
   color: #CAC589;
   font-size: 1.5em;
