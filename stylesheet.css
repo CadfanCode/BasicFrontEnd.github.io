@@ -82,7 +82,7 @@ form > button {
     font-weight: bold;
     margin-top: 10px;
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
     border: none;
     width: 100%; 
 }
@@ -94,9 +94,16 @@ form > p {
     margin-top: 10px;
 }
 
-form > a {
-    color: #CAC589;
-    text-decoration: none;
+form a {
+  color: #CAC589;
+  text-decoration: none;
+}
+
+form a:hover,
+form a:visited,
+form a:active {
+  color: #CAC589;
+  text-decoration: none;
 }
 
 form > a:hover {
