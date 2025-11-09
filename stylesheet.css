@@ -60,54 +60,58 @@ header > i {
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  color: #CAC589;
-  margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    color: #CAC589;
+    margin: 10px 0;
 }
 
 form > label {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
-form input,
-form select,
-form button {
-  margin-top: 5px;
-  padding: 5px;
-  border: none;
-  width: 100%;
+form input:not(#destinationField),
+form select {
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
 }
 
 form > button {
-  background-color: #A6A86F;
-  color: #97351C;
-  font-weight: bold;
-  margin-top: 10px;
-  cursor: pointer;
+    background-color: #A6A86F;
+    color: #97351C;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    width: 100%; 
 }
 
 form > p {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
 }
 
 form > a {
-  color: #CAC589;
-  text-decoration: none;
+    color: #CAC589;
+    text-decoration: none;
 }
 
 form > a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-form > #destinationField{
-  width: 50%;
+form > #destinationField {
+    width: 50%;
+    margin-right: auto; /* Pushes the element to the left */
+    margin-left: 0;
 }
 
-form > #returnBox{
-  justify-content: flex-start;
+form > #returnBox {
+    margin-right: auto; 
+    margin-left: 0;
 }
