@@ -56,6 +56,7 @@ header > i {
   font-size: small;
   text-align: left;
   color: #CAC589;
+  margin-bottom: 0; /* This is to override the default margin for h2, so that no gap appears between the the text padding and iframe.*/
 }
 
 form {
