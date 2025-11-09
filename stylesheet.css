@@ -29,9 +29,10 @@ header {
 }
 
 .unordered-list {
+  display: flex;
   color: #CAC589;
   text-align: left;
-  justify-content: left;
+  justify-content: flex-start;
   padding-left: 30px;
   margin: 10px 0;
 }
