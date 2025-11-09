@@ -36,7 +36,7 @@ header {
   margin: 10px 0;
 }
 
-.video-section {
+.video-section > h2 {
   background-color: #C55637;
   width: 100%;
   font-size: small;
