@@ -39,7 +39,8 @@ header {
 .video-section {
   background-color: #C55637;
   width: 100%;
-  text-align: center;
+  font-size: small;
+  text-align: left;
   color: #CAC589;
   padding-bottom: 10px;
 }
