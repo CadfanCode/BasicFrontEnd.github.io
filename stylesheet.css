@@ -16,13 +16,23 @@ body {
 }
 
 header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 10px;
-  color: #CAC589;
-  font-size: 1.5em;
-  margin-top: 10px;
+    display: flex;
+    align-items: center; /* Vertically align to the center, so the icon is inline with the text*/
+    /* Aligns items to the start of the container */
+    justify-content: flex-start;
+    gap: 10px;
+    color: #CAC589;
+    margin-top: 10px;
+}
+
+header > h1 {
+    margin: 0; 
+    font-size: 1em; 
+    font-weight: normal; 
+}
+
+header > i {
+    font-size: 1.5em; 
 }
 
 .image-section img {
