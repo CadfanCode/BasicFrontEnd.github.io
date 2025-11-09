@@ -67,7 +67,7 @@ form {
   margin: 10px 0;
 }
 
-form label {
+form > label {
   margin-top: 5px;
 }
 
@@ -80,7 +80,7 @@ form button {
   width: 100%;
 }
 
-form button {
+form > button {
   background-color: #A6A86F;
   color: #97351C;
   font-weight: bold;
@@ -88,18 +88,22 @@ form button {
   cursor: pointer;
 }
 
-form p {
+form > p {
   display: flex;
   align-items: center;
   gap: 5px;
   margin-top: 10px;
 }
 
-form a {
+form > a {
   color: #CAC589;
   text-decoration: none;
 }
 
-form a:hover {
+form > a:hover {
   text-decoration: underline;
+}
+
+#destinationField{
+  width: 50%;
 }
